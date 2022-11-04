@@ -136,7 +136,7 @@ img {
   left: -3px;
   width: 20px;
   height: 20px;
-  background-image: url("../../img/icons/phone-mini.svg");
+  background-image: url("./../img/icons/phone-mini.svg");
 }
 
 .navBlock__menu__button {
@@ -153,7 +153,7 @@ img {
   left: 0px;
   width: 20px;
   height: 20px;
-  background-image: url("../../img/icons/white/user.svg");
+  background-image: url("./../img/icons/white/user.svg");
 }
 
 .menu {
@@ -197,15 +197,6 @@ img {
 
 .menuBlock__item--list img {
   margin-left: 4px;
-}
-
-@media (max-width: 850px) {
-  .menuBlock__item {
-    font-size: 12px;
-  }
-  .menuBlock__item + .menuBlock__item {
-    margin-left: 10px;
-  }
 }
 
 .header {
@@ -276,21 +267,6 @@ img {
   margin-right: 16px;
   background: #F9F9F9;
   border: 1px solid #D5D5D5;
-}
-
-@media (max-width: 960px) {
-  .form__inputs {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .form__inputs__one {
-    margin-bottom: 10px;
-  }
-  .form__inputs__one + .form__inputs__one {
-    margin-left: 0;
-  }
 }
 
 .costBlock {
@@ -912,15 +888,6 @@ span[profit] {
   cursor: pointer;
 }
 
-@media (max-width: 1100px) {
-  .calcBlock__del {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
 .howWeWork {
   margin: 100px 0;
 }
@@ -963,7 +930,7 @@ span[profit] {
   left: 0px;
   width: 60px;
   height: 15px;
-  background-image: url("../../img/icons/blue-arrow.svg");
+  background-image: url("./../img/icons/blue-arrow.svg");
 }
 
 span[gas_lastSpan]:before {
@@ -987,19 +954,6 @@ span[gas_lastSpan]:before {
   font-weight: 400;
   font-size: 12px;
   line-height: 140%;
-}
-
-@media (max-width: 1100px) {
-  .howWeWorkBlock__items {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .howWeWorkBlock__items__one {
-    width: 100%;
-    margin-bottom: 15px;
-  }
 }
 
 .advantages {
@@ -1053,18 +1007,6 @@ span[gas_lastSpan]:before {
   max-width: 246px;
   font-size: 14px;
   line-height: 17px;
-}
-
-@media (max-width: 1100px) {
-  .advantagesBlock__items {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .advantagesBlock__items__one {
-    margin-right: 0;
-  }
 }
 
 .certificates {
@@ -1337,7 +1279,7 @@ span[gas_lastSpan]:before {
   left: 21px;
   width: 10px;
   height: 16px;
-  background-image: url("../../img/icons/strelka.svg");
+  background-image: url("./../img/icons/strelka.svg");
 }
 
 .sliderButtons--next {
@@ -1361,6 +1303,6 @@ span[gas_lastSpan]:before {
   height: 16px;
   -webkit-transform: rotate(-180deg);
           transform: rotate(-180deg);
-  background-image: url("../../img/icons/strelka.svg");
+  background-image: url("./../img/icons/strelka.svg");
 }
 /*# sourceMappingURL=main.css.map */
