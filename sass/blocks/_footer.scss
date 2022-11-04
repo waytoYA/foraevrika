@@ -1,0 +1,49 @@
+.footer{
+    padding: 40px 0;
+    background-color: $background-grey;
+}
+
+.footerBlock{
+    position: relative;
+    display: flex;
+
+}
+
+.footerBlock__logo{
+    display: inline-block;
+
+    p{
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    
+}
+
+.footerBlock__url{
+    margin-left: 200px;
+
+    & + & {
+        margin-left: 100px;
+    }
+
+    li{
+        font-weight: 600;
+        
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+
+.footerBlock__phone{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    text-align: right;
+
+    span{
+        font-weight: 700;
+        font-size: 20px;
+        color: $main-blue;
+    }
+}

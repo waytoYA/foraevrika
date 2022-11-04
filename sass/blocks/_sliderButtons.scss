@@ -1,0 +1,54 @@
+.sliderButtons{
+    display: flex;
+    position: absolute;
+
+    right: 0;
+    top: 0;
+}
+
+.sliderButtons--prev{
+    width: 56px;
+    height: 56px;
+    border: 1px solid #D5D5D5;
+    cursor: pointer;
+    transition: all 0.5s;
+
+    @extend %beforeElement;
+
+    &:hover{
+        background-color: hsla(0, 0%, 84%, 0.5);
+    }
+
+    &:before{
+        top: 19px;
+        left: 21px;
+        width: 10px;
+        height: 16px;
+        background-image: url('../../img/icons/strelka.svg');
+    }
+}
+
+.sliderButtons--next{
+    width: 56px;
+    height: 56px;
+    border: 1px solid #D5D5D5;
+    cursor: pointer;
+    transition: all 0.5s;
+
+    margin-left: 16px;
+
+    @extend %beforeElement;
+
+    &:hover{
+        background-color: hsla(0, 0%, 84%, 0.5);
+    }
+
+    &:before{
+        top: 19px;
+        left: 21px;
+        width: 10px;
+        height: 16px;
+        transform: rotate(-180deg);
+        background-image: url('../../img/icons/strelka.svg');
+    }
+}
